@@ -19,19 +19,15 @@ img {
 
 .boxA {
   flex: 1 0 100px;
-  /* background-color: aqua; */
 }
 .boxB {
   flex: 1 0 100px;
-  /* background-color: lime; */
 }
 .boxC {
   flex: 1 0 100px;
-  /* background-color: coral; */
 }
 .boxD {
   flex: 1 0 100px;
-  /* background-color: olive; */
 }
 
 @media screen and (max-width: 1200px) {

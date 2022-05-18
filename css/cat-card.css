@@ -1,5 +1,6 @@
 .cat-container {
   display: flex;
+  gap: 24px;
   flex-direction: row;
   width: 1200px;
   height: 200px;
@@ -11,24 +12,26 @@ img {
 }
 
 .box--all {
+  border: solid gray 2px;
+  box-shadow: 2px 2px 2px 2px lightgray;
   padding: 20px 0 0 20px;
 }
 
 .boxA {
   flex: 1 0 100px;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 .boxB {
   flex: 1 0 100px;
-  background-color: lime;
+  /* background-color: lime; */
 }
 .boxC {
   flex: 1 0 100px;
-  background-color: coral;
+  /* background-color: coral; */
 }
 .boxD {
   flex: 1 0 100px;
-  background-color: olive;
+  /* background-color: olive; */
 }
 @media screen and (max-width: 1200px) {
   .cat-container {

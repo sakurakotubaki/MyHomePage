@@ -33,6 +33,7 @@ img {
   flex: 1 0 100px;
   /* background-color: olive; */
 }
+
 @media screen and (max-width: 1200px) {
   .cat-container {
     display: flex;

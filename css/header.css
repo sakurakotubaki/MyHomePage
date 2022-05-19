@@ -54,4 +54,8 @@
     list-style: none;
     background-color: rgb(51, 51, 51);
   }
+  /*隠している要素のcssを無効化*/
+  .responsive-navigation {
+    display: initial;
+  }
 }

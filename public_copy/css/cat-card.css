@@ -1,23 +1,31 @@
 .cat-section {
-
   width: 90%;
+  /*カードを囲む最大幅*/
   max-width: 1080px;
   margin: 0 auto;
 }
 
 .cat-container {
+  /*グリッドレイアウトでカードを配置*/
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  /*カードの余白*/
   gap: 30px;
 }
 .image {
+  /* 猫のプロフィール画像の幅と高さを設定。形状を丸くする */
   width: 100px;
   height: 100px;
   border-radius: 50%;
+
+  /* 画像をコンテナーいっぱいにできるだけ大きく拡大縮小し、必要に応じて画像を引き伸ばします。 */
   background-size: cover;
+  /*画像を中央よせ*/
   background-position: center;
+  /* 画像は繰り返し描画されません */
   background-repeat: no-repeat;
 
+  /* カードに影をつける */
   box-shadow: 0 3px 10px rgba(black, 0.2);
 }
 
@@ -40,6 +48,7 @@
 }
 
 .cat-card:hover {
+  /* カードの上にマウスが当たると拡大、縮小するアニメーション */
   transition: transform 300ms ease-in-out;
   transform: scale(1.05);
 

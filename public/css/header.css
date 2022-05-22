@@ -17,9 +17,9 @@
 }
 
 .example li {
-  /*追加*/width: 100%;
-  /*追加*/box-sizing: border-box;
-  /*追加*/text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
   padding: 10px;
   margin: 0;
   border-bottom: 1px solid #fff;

@@ -6,11 +6,13 @@
 
 .banner-card {
   border: solid 1px gray;
+  border-radius: 5px;
   margin-left: 50px;
   padding: 50px 50px 50px 50px;
 }
 
 .banner-image {
+  cursor: pointer;
   width: 320px;
   height: 214px;
 }

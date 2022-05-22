@@ -1,0 +1,16 @@
+.banner-container {
+  margin: 20px 0 20px 0;
+  width: 480px;
+  height: 400px;
+}
+
+.banner-card {
+  border: solid 1px gray;
+  margin-left: 50px;
+  padding: 50px 50px 50px 50px;
+}
+
+.banner-image {
+  width: 320px;
+  height: 214px;
+}
